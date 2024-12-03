@@ -1,0 +1,38 @@
+main{
+   margin:5% 25% 5% 25%;
+   overflow: auto;
+   perspective: 500px;
+   transform-style:preserve-3d ;
+ }
+.parent{
+    width: 550px;
+    height: 550px;
+    border: 1px solid  rgb(196, 78, 27);
+    border-radius: 10%;
+    margin: auto;
+    background-image: url("../images/1.1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 2s;
+}
+.parent,#next,#previous{
+    float:left;
+}
+#next,#previous{
+    color: rgb(196, 78, 27);
+    font-size: 30px;
+    margin:0px 20px 0px 20px ;
+    margin-top: 225px;
+}
+.parent:hover{
+transform:scale(0.9,0.9);
+}
+.indicators{
+    margin: 0px 0px 0px 38%;
+}
+.indicators i{
+    border: 1px  solid  rgb(196, 78, 27);
+    border-radius:50% ;
+    color: antiquewhite;
+}
